@@ -1,0 +1,23 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/leavemanagement.db
+    volumes:
+      - sqlite-data:/app/data
+    restart: unless-stopped
+    networks:
+      - leavemanagement-network
+
+networks:
+  leavemanagement-network:
+    driver: bridge
+
+volumes:
+  sqlite-data:
+    driver: local
