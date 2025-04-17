@@ -14,7 +14,7 @@ https://leave-management-system-uxmh.onrender.com/swagger
 
 Local Running Using Docker : 
 
- - Clone the repository (git clone https://github.com/yourusername/leave-management-system.git)
+ - Clone the repository (git clone https://github.com/ismailsahnoun/leave-management-system.git)
  - Navigate to the project directory ( cd leave-management-system ) 
  - Build the docker image ( sudo docker-compose build )  
  - Run the docker image: ( sudo docker-compose up -d) 
