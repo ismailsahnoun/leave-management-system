@@ -21,16 +21,10 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-var app = builder.Build();
-
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-
+var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // database creation
 using (var scope = app.Services.CreateScope())
