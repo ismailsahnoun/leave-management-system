@@ -11,7 +11,8 @@ Live Demo
 The application is deployed and accessible on Render Cloud at:
 
 https://leave-management-system-uxmh.onrender.com/swagger
-*** It will take almost 1 minute for the first time navigating to the link as it will restart the server due to inactivity for free plan on Render ***
+
+**It will take almost 1 minute for the first time navigating to the link as it will restart the server due to inactivity for free plan on Render**
 
 Local Running Using Docker : 
 
