@@ -8,6 +8,7 @@ The project follows a clean architecture approach with the following layers:
 ***Please Read Documentation.txt file for more informations about the app logic & Self-Review.txt for my suggested improvements***
 
 Live Demo
+
 The application is deployed and accessible on Render Cloud at:
 
 https://leave-management-system-uxmh.onrender.com/swagger
