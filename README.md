@@ -5,7 +5,7 @@ The project follows a clean architecture approach with the following layers:
 - Infrastructure: Contains database context, repository implementations, and dependency injection
 - Presentation: Contains controllers and API endpoints
 
-***Please Read Documentation.txt file for more informations about the app logic***
+***Please Read Documentation.txt file for more informations about the app logic & Self-Review.txt for my suggested improvements***
 
 Live Demo
 The application is deployed and accessible on Render Cloud at:
